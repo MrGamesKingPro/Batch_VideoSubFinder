@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import customtkinter as ctk
 from tkinter import filedialog, messagebox, Toplevel
 import configparser
@@ -31,7 +30,7 @@ except ImportError:
 # --- Constants ---
 SETTINGS_FILE = "Settings.ini"
 DEFAULT_OUTPUT_RELPATH = "Output_Videos_Images"
-APP_NAME = "Video Sub Finder V2.0.3"
+APP_NAME = "Batch_VideoSubFinder V2.0.3"
 VERSION_INFO = "Programmed by Youtube@MrGamesKingPro"
 VIDEO_FILE_EXTENSIONS = {".mp4", ".mkv", ".avi", ".mov", ".flv", ".wmv"} # Common video extensions
 
