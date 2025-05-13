@@ -48,7 +48,7 @@ pip install watchdog
         *   `Create Cleared Text Images` (checkbox for `-ccti` flag)
         *   `Use CUDA` (checkbox for `-uc` flag if you have a compatible NVIDIA GPU)
         *   `Start Time` / `End Time` (e.g., `00:01:30.000`): If you want to process only a specific segment of the videos. Leave blank to process the entire duration.
-        *   `Threads for RGB Images` / `Threads for TXT Images`: Adjust for performance based on your CPU.
+        *   `Threads for RGB Images` / `Threads for TXT Images`: number of threads used for Run Search.
     *   These settings will be applied uniformly to **all videos** processed in the batch.
 
 ##Edit Crop Visually interface##
