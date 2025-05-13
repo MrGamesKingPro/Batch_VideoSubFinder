@@ -29,7 +29,7 @@ pip install watchdog
 
 ##Main Tool interface##
 
-![vsf3](https://github.com/user-attachments/assets/00bad0ae-2334-4d14-b051-68216ced4a63)
+![vsf33](https://github.com/user-attachments/assets/7e46108e-a2f4-45f8-a2d9-560585b15869)
 
 
 2.  **Configure Paths (Main Window - "Paths Configuration" section)**:
