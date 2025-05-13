@@ -1,0 +1,6 @@
+1 - download  ffprobe.exe
+https://www.videohelp.com/software/ffmpeg
+
+2- Put in a folder ffmpeg
+
+example : Batch_VideoSubFinder\ffmpeg\ffprobe.exe

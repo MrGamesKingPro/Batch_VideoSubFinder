@@ -1,0 +1,1 @@
+Videos Input Folder: Click "Browse Folder" and select the directory that contains all the video files you want to process. The tool will iterate through common video formats (mp4, mkv, avi, etc.) in this folder. This is the key for multi-video processing.

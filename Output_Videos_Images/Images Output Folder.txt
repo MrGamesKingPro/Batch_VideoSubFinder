@@ -1,0 +1,1 @@
+Click "Browse Folder" to choose where the output images (RGBImages, TXTImages) will be saved. If left blank, a default folder named Output_Videos_Images will be created in the script's directory. Each video will typically get its own subfolder within this output path (e.g., VideoName_Output/RGBImages).
