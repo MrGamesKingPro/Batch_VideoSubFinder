@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import customtkinter as ctk
 from tkinter import filedialog, messagebox, Toplevel
 import configparser
@@ -1029,10 +1030,10 @@ class VideoSubFinderGUI(ctk.CTk):
         self.settings_vars["end_time"] = ctk.StringVar()
         ctk.CTkEntry(self.settings_frame, textvariable=self.settings_vars["end_time"], width=120).grid(row=3, column=3, padx=5, pady=5, sticky="w")
 
-        ctk.CTkLabel(self.settings_frame, text="Threads for RGB Images:").grid(row=4, column=0, padx=5, pady=5, sticky="w")
+        ctk.CTkLabel(self.settings_frame, text="Number Threads RGBImages (num):").grid(row=4, column=0, padx=5, pady=5, sticky="w")
         self.settings_vars["number_threads_rgbimages"] = ctk.StringVar()
         ctk.CTkEntry(self.settings_frame, textvariable=self.settings_vars["number_threads_rgbimages"], width=50).grid(row=4, column=1, padx=5, pady=5, sticky="w")
-        ctk.CTkLabel(self.settings_frame, text="Threads for TXT Images:").grid(row=4, column=2, padx=5, pady=5, sticky="w")
+        ctk.CTkLabel(self.settings_frame, text="Number Threads TXTImages (num):").grid(row=4, column=2, padx=5, pady=5, sticky="w")
         self.settings_vars["number_threads_txtimages"] = ctk.StringVar()
         ctk.CTkEntry(self.settings_frame, textvariable=self.settings_vars["number_threads_txtimages"], width=50).grid(row=4, column=3, padx=5, pady=5, sticky="w")
 
